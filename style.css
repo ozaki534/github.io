@@ -32,6 +32,7 @@ main {
     background-size:cover;
     grid-area: center;
     text-align: center;
+    padding-top: 3%;
 }
 nav {
     
@@ -79,7 +80,8 @@ footer {
     background-color:#8290ac;
     /*margin-bottom:10px;*/
     border-radius:4px;
-    transition:all 0.5s;
+    transition:all 0.1s;
+    
     
        
  
@@ -90,22 +92,22 @@ footer {
   .profile {
     background-color:#55acee;
     border-radius:4px;
-    transition:all 0.5s;
+    transition:all 0.1s;
+    
   }
   .Contact {
     background-color:#239b76;
     /*margin:20px 0;*/
     border-radius:4px;
-    transition:all 0.5s;
+    transition:all 0.1s;
   }
   header {
     
     position:fixed;
-    text-outline: 50px;;
+    text-outline: 50px;
     left:0;
     right:0;
     bottom: auto;
-
     z-index:10;
     
     
