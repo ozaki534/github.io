@@ -1,3 +1,8 @@
+
+
+
+
+
 body {
     font-size: 2rem;
     width: 800px;
@@ -6,7 +11,7 @@ body {
     display: grid;
     grid-template:
         "... ...... ...... ...... ...... ...... ..."
-        "... header header header header header ..." 150px
+        "... header header header header header ..." 170px
         "... ...... ...... ...... ...... ...... ..."
         "... left   ...... center ...... right  ..." 1fr
         "... ...... ...... ...... ...... ...... ..."
@@ -19,6 +24,7 @@ header {
     text-align: center;
     color:red;
     font-size: 30px;
+    background-color: white;
     
 }
 main {
@@ -52,9 +58,7 @@ footer {
     }
 }
 
-nav p {
-    font-size: 20px;
-}
+
 .btn-wrapper {
     /*padding:8px 30px;*/
     /*background-color:rgb(45, 230, 76);*/
@@ -93,5 +97,18 @@ nav p {
     /*margin:20px 0;*/
     border-radius:4px;
     transition:all 0.5s;
+  }
+  header {
+    
+    position:fixed;
+    text-outline: 50px;;
+    left:0;
+    right:0;
+    bottom: auto;
+
+    z-index:10;
+    
+    
+    
   }
   
